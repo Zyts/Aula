@@ -26,21 +26,14 @@ public class Mes {
         case 9: System.out.println("Setembro");
         break;
         case 10: System.out.println("Outubro");
-
+        break;
         case 11: System.out.println("Novembro");
-
+        break;
         case 12: System.out.println("Dezembro");
-        
-        case 13: System.out.println("Mes invalido");
-     
+        break;
         default:
             System.out.println("Numero invalido");
-            
-            System.out.println("Até mais!");
-            
-                    
-        
-       
+              
     }
     }
     

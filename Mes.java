@@ -3,7 +3,7 @@ package mes;
 public class Mes {
 
     public static void main(String[] args) {
-      ExibirMes(2);
+      ExibirMes(12);
     }
     public static void ExibirMes (int numero){
     switch (numero){
@@ -26,13 +26,19 @@ public class Mes {
         case 9: System.out.println("Setembro");
         break;
         case 10: System.out.println("Outubro");
-        break;
+
         case 11: System.out.println("Novembro");
-        break;
+
         case 12: System.out.println("Dezembro");
-        break;
+        
+        case 13: System.out.println("Mes invalido");
+     
         default:
             System.out.println("Numero invalido");
+            
+            System.out.println("Até mais!");
+            
+                    
         
        
     }
